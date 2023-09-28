@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="fName">First Name:
+            <input type="text" name="firstName" placeholder="First name" id="fName" minlength=3 required max=50 />
+        </label>
+        <br>
+        <br>
+        <label for="lName">Last Name:
+            <input type="text" name="lastName" placeholder="Last Name" id="lName" required min=3 max=50 />
+        </label>
+        <br>
+        <br>
+        <label for="email">Email:
+            <input type="email" name="email" placeholder="example@email.com" id="email" required />
+        </label>
+        <br>
+        <br>
+        <label for="password">Password:
+            <input type="password" name="password" placeholder="Password" id="password" required min=10 />
+        </label>
+        <br>
+        <label for="confirmPassword">Confirm Password:
+            <input type="password" name="confirmPassword" placeholder="Confirm Password" id="confirmPassword" required min=10 />
+        </label>
+        <br>
+        <br>
+        <label for="age">Age:
+            <input type="number" name="age" placeholder="Age" id="age" required min=0 max=150 />
+        </label>
+        <br>
+        <br>
+        <label for="">Gender:
+            <input type="radio" id="male" value="male" name="gender" checked />
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender" />
+            <label for="female">Female</label>
+            <input type="radio" id="other" value="other" name="gender" />
+            <label for="other">Other</label>
+        </label>
+        <br>
+        <br>
+        <label for="terms">terms:
+            <input type="checkbox" id="terms" required /> I agree to terms and conditions
+        </label>
+        <br>
+        <br>
+        <button type="submit">Register</button>
+    </fieldset>
+    </form>
+</body>
+
+</html>
